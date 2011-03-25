@@ -1,6 +1,6 @@
 require 'net/http'
 require 'uri'
-require 'active_support'
+require 'active_support/all'
 
 # Capistrano tasks for notifying Hoptoad of deploys
 module HoptoadTasks

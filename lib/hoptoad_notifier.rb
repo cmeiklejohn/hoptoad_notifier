@@ -2,7 +2,7 @@ require 'net/http'
 require 'net/https'
 require 'rubygems'
 begin
-  require 'active_support'
+  require 'active_support/all'
 rescue LoadError
   require 'activesupport'
 end

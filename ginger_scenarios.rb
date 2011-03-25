@@ -11,7 +11,7 @@ end
 
 Ginger.configure do |config|
   config.aliases["active_record"] = "activerecord"
-  config.aliases["active_support"] = "activesupport"
+  config.aliases["active_support/all"] = "activesupport"
   config.aliases["action_controller"] = "actionpack"
 
   rails_1_2_6 = Ginger::Scenario.new
